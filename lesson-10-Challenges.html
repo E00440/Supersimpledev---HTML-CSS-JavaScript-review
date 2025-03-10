@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10-Challenges</title>
+  <link rel="stylesheet" href="/styles/lesson-10-Challenges.css">
+</head>
+<body>
+  <!-- 10g -->
+  <button class="js-button-toggle button-toggle" onclick="
+  buttonIsToggled('.js-button-toggle');
+  ">Gaming</button>
+  
+  <button class="js-button-toggle-two button-toggle" onclick="
+  buttonIsToggled('.js-button-toggle-two');
+  ">Music</button>
+  
+  <button class="js-button-toggle-three button-toggle" onclick="
+  buttonIsToggled('.js-button-toggle-three');
+  ">Tech</button>
+
+  <br><br><br>
+
+  <!-- 10h -->
+  <p>Amazon Shipping Calculator</p>
+  <p>Orders under $40 = +$10 shipping.</p>
+  <p>Orders over $40 = FREE shipping.</p>
+  <input placeholder="Cost of order" class="js-cost-input cost-input" onkeydown="
+    handleCostKeydown(event);
+    ">
+  <button onclick="
+    calculateTotal();
+    " class="calculate-button">
+    Calculate
+  </button>
+
+  <p class="js-total-cost total-cost js-error-message"></p>
+
+  <script src="/scripts/lesson-10-Challenges.js"></script>
+</body>
+</html>
