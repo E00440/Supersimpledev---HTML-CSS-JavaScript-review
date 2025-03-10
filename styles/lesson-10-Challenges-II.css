@@ -1,0 +1,33 @@
+body {
+  background-color: #000000;
+  color: white;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  background-color: #333333;
+  color: white;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 400;
+  border: none;
+  border-radius: 30px;
+  margin-right: 5px;
+}
+
+.yellow-button {
+  background-color: #FEA00A;
+}
+
+.clear-button {
+  font-size: 17px;
+}
+
+.update-calculation {
+  font-family: Arial;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}

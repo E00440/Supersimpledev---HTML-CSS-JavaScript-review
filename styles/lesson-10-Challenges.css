@@ -1,0 +1,53 @@
+button {
+  cursor: pointer;
+}
+
+/* 10g */
+.button-toggle {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button-is-toggled {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* 10h */
+.cost-input {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.calculate-button {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  padding: 12px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.total-cost {
+  margin-bottom: 50px;
+}
+
+/* .less-than-zero {
+  color: red;
+} */
+
+.js-error-message {
+  color: red;
+}
